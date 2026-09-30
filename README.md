@@ -16,13 +16,15 @@ Página estática em HTML, CSS e JavaScript. Nenhum login ou serviço do ChatGPT
 
 - dist/index.html: textos e estrutura.
 - dist/style.css e dist/responsive.css: estilos, animações e ajustes de proporção/mobile.
-- dist/app.js: interações e botão de compra.
+- dist/app.js: interações e navegação para o resumo do pedido.
+- dist/purchase.html, dist/purchase.css e dist/purchase.js: resumo do pedido e acesso ao pagamento.
+- dist/theme.css e dist/theme.js: modo claro/escuro persistente com transição suave e suporte a movimento reduzido.
 - dist/config.js: configuração pública da oferta.
 - dist/assets/: fotos ilustrativas, logos, fontes, páginas e amostra PDF.
 
 ## Checkout
 
-Os seis botões de compra abrem o checkout do produto uexads no Gumroad em uma nova aba. O preço-base é US$29, com pagamento único e garantia de 7 dias. A cobrança e o acesso ao PDF são gerenciados pelo Gumroad. O total com impostos é exibido no checkout.
+Os seis botões da página principal abrem o resumo do pedido em purchase.html. Os botões desse resumo abrem o checkout do produto uexads no Gumroad em uma nova aba. O preço-base é US$29, com pagamento único e garantia de 7 dias. A cobrança e o acesso ao PDF são gerenciados pelo Gumroad. O total com impostos é exibido no checkout.
 
 config.js é público: não coloque senhas, tokens ou chaves secretas nele.
 
