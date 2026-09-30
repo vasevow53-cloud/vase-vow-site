@@ -1,1 +1,1 @@
-window.VASE_VOW_CONFIG = { priceUSD:29, checkoutUrl:null, launchReady:false, supportContact:null, sellerIdentity:null, policyUrls:{}, analyticsConfig:null };
+window.VASE_VOW_CONFIG = { priceUSD:29, checkoutUrl:"https://vasevow.gumroad.com/l/uexads?wanted=true", launchReady:true, supportContact:null, sellerIdentity:null, policyUrls:{}, analyticsConfig:null };

@@ -15,16 +15,16 @@ Página estática em HTML, CSS e JavaScript. Nenhum login ou serviço do ChatGPT
 ## Conteúdo do projeto
 
 - dist/index.html: textos e estrutura.
-- dist/style.css: estilos responsivos.
+- dist/style.css e dist/responsive.css: estilos, animações e ajustes de proporção/mobile.
 - dist/app.js: interações e botão de compra.
 - dist/config.js: configuração pública da oferta.
 - dist/assets/: fotos ilustrativas, logos, fontes, páginas e amostra PDF.
 
 ## Checkout
 
-O botão de pagamento continua inativo. Configure checkoutUrl com um endereço HTTPS do Gumroad, os dados reais do vendedor e as políticas finais. Atualize também os textos de pré-lançamento no HTML antes de definir launchReady como true. Um link de checkout sozinho não conclui esse processo.
+Os seis botões de compra abrem o checkout do produto uexads no Gumroad em uma nova aba. O preço-base é US$29, com pagamento único e garantia de 7 dias. A cobrança e o acesso ao PDF são gerenciados pelo Gumroad. O total com impostos é exibido no checkout.
 
-config.js é público: não coloque senhas, tokens ou chaves secretas nele. O ID público de um Pixel não é uma chave secreta.
+config.js é público: não coloque senhas, tokens ou chaves secretas nele.
 
 ## Testar localmente
 
@@ -40,7 +40,7 @@ Altere os arquivos no GitHub e salve um commit na branch main. A integração do
 
 ## Estado de lançamento
 
-A transferência conserva a página atual. Checkout, atendimento, políticas finais e rastreamento de anúncios ainda precisam ser configurados. A revisão visual de celular e computador deve ser concluída antes de anúncios.
+Versão revisada no GPT Sites: imagens na proporção original, fontes e botões ajustados para celular, animações com suporte a movimento reduzido, calculadora de quantidades e prévias ampliáveis. Revisão em larguras de 320, 390 e 768 pixels e desktop, sem rolagem horizontal. A abertura do checkout foi verificada; compra, recibo e download precisam ser conferidos com a compra de teste do vendedor antes dos anúncios. Rastreamento de anúncios ainda não está configurado.
 
 ## Referências
 
