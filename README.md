@@ -42,7 +42,7 @@ Altere os arquivos no GitHub e salve um commit na branch main. A integração do
 
 ## Estado de lançamento
 
-Versão revisada no GPT Sites: imagens na proporção original, fontes e botões ajustados para celular, animações com suporte a movimento reduzido, calculadora de quantidades e prévias ampliáveis. Revisão em larguras de 320, 390 e 768 pixels e desktop, sem rolagem horizontal. A abertura do checkout foi verificada; compra, recibo e download precisam ser conferidos com a compra de teste do vendedor antes dos anúncios. Rastreamento de anúncios ainda não está configurado.
+Versão revisada no GPT Sites: imagens na proporção original, fontes e botões ajustados para celular, animações com suporte a movimento reduzido, calculadora de quantidades e prévias ampliáveis. Revisão em larguras de 320, 390 e 768 pixels e desktop, sem rolagem horizontal. A abertura do checkout foi verificada; compra, recibo e download precisam ser conferidos com a compra de teste do vendedor antes dos anúncios. Tag base do Google Ads AW-18488071017 instalada nas duas páginas, com linker para Gumroad. Os links preservam UTMs e identificadores de clique. A conversão de compra é configurada separadamente no recibo do Gumroad; disparo e atribuição ainda precisam de validação ponta a ponta.
 
 ## Referências
 
